@@ -27,7 +27,7 @@ button.onclick = async (event) => {
     .then(response => {
       console.log(response)
       alert(response.message)
-      window.location = "index.html"
+      window.location = "https://www.experttrades.org/"
     })
     .catch((error) => {
       console.log(error);
